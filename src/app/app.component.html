@@ -1,21 +1,270 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/cli">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<div class="app">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="background-color: black;color:white;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">MehdiTech</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-left: 80px;">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#techno">Technologies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#clients">Clients</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#contact">Contact Us</a>
+          </li>
 
-<router-outlet></router-outlet>
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <div class="cont" id="home">
+    <img src="assets/background.jpg" class="homeimg">
+    <div class="pos"
+      style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;font-size:medium;">
+      <h2>We create stunning websites</h2>
+      <p>Get youself a professionally designed responsive website.</p>
+
+
+    </div>
+
+
+  </div>
+  <div id="about">
+    <div class="container">
+      <h2 class="abouth2 mt-4">About Us</h2>
+      <div class="row">
+        <div class="col-lg-6">
+          <h5 class="abouth5"> We are a team of highly experienced software developers with expertise in full stack web
+            development and software development.</h5>
+        </div>
+        <div class="col-lg-6">
+          <p class="aboutp mb-5">MehdiTech has provided fast and responsive websites to various clients at affordable
+            prices. We
+            have a right blend of designers, expert web developers and software developers
+            which make us a unique one-stop solution for our clients, spread across different countries.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="services">
+    <div class="container">
+      <h2 class=" abouth2 mt-4">Our Services</h2>
+      <div class="row mb-5 swap">
+        <div class="col-lg-6">
+          <h3 class="mb-4 mt-4">Design and development</h3>
+          <p class="servicep">
+            Create fluid and mobile-first web designs with attractive graphics and engaging content with our web design
+            company in India, that can connect with and engage your audience at extremely competitive prices.<br>We
+            provide customized and need-based solutions for E-Commerce Websites, Dynamic or Static Websites, along with
+            round-the-clock support.
+          </p>
+        </div>
+        <div class="col-lg-6">
+          <img src="assets/desndev.jpg" style="width:100%;padding-left: 10px;">
+        </div>
+      </div>
+      <div class="row mb-5 swap1">
+        <div class="col-lg-6">
+          <img src="assets/desndev.jpg" style="width:100%;padding-left: 10px;">
+        </div>
+        <div class="col-lg-6">
+          <h3 class="mb-4 mt-4">Design and development</h3>
+          <p class="servicep">
+            Create fluid and mobile-first web designs with attractive graphics and engaging content with our web design
+            company in India, that can connect with and engage your audience at extremely competitive prices.<br>We
+            provide customized and need-based solutions for E-Commerce Websites, Dynamic or Static Websites, along with
+            round-the-clock support.
+          </p>
+        </div>
+
+      </div>
+      <div class="row mb-5">
+        <div class="col-lg-6">
+          <img src="assets/sofdev3.png" style="width:100%;">
+        </div>
+        <div class="col-lg-6">
+          <h3 class="mt-4 mb-4">Software development</h3>
+          <p class="servicep">We design custom application softwares (applications or apps) to help users perform tasks.
+            Office productivity suites, data management software, media players and security programs are examples.
+            Applications also refers to web and mobile applications like those used to shop on Amazon.com, socialize
+            with Facebook or post pictures to Instagram.</p>
+
+        </div>
+      </div>
+      <div class="row swap mb-5">
+        <div class="col-lg-6">
+          <h3 class="mt-4 mb-4">Hosting services</h3>
+          <p class="servicep">
+            We provide hosting services at a better price than our competitors starting at just 49/mo. We also provide
+            SSL certificate for your website and provide a dashboard for you to track the traffic on your website.
+          </p>
+          <a href="" class="hostlink">Explore Our services <i class="bi bi-arrow-right-circle"></i></a>
+        </div>
+        <div class="col-lg-6">
+          <img src="assets/hosnseo2.jpg" style="width:100%;">
+        </div>
+      </div>
+      <div class="row swap1 mb-5">
+        <div class="col-lg-6">
+          <img src="assets/hosnseo2.jpg" style="width:100%;">
+        </div>
+        <div class="col-lg-6">
+          <h3 class="mt-4 mb-4">Hosting services</h3>
+          <p class="servicep">
+            We provide hosting services at a better price than our competitors starting at just 49/mo. We also provide
+            SSL certificate for your website and provide a dashboard for you to track the traffic on your website.
+          </p>
+          <a href="" class="hostlink">Explore Our services <i class="bi bi-arrow-right-circle"></i></a>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+  <div class="container" id="techno">
+    <h3 class="technoh2 mt-4 mb-5">Technologies and tools</h3>
+    <div class="resp-content-sec resp-tab-content resp-tab-content-active" aria-labelledby="tab_item-0"
+      style="display:block">
+      <ul class="tech-tabbing-con" style="list-style-type: none;">
+        <li>
+          <div class="ver_align"><img src="assets/ang.svg" alt="" title="">
+            <p>Angular</p>
+          </div>
+        </li>
+        <li>
+          <div class="ver_align"><img src="assets/react.svg" alt="" title="">
+            <p>Reactjs</p>
+          </div>
+        </li>
+        <li>
+          <div class="ver_align"><img src="assets/nodejs.svg" alt="" title="">
+            <p>Nodejs</p>
+          </div>
+        </li>
+        <li>
+          <div class="ver_align"><img src="assets/java.svg" alt="" title="">
+            <p>Java</p>
+          </div>
+        </li>
+        <li>
+          <div class="ver_align"><img src="assets/mysql.svg" alt="" title="">
+            <p>MySQL</p>
+          </div>
+        </li>
+        <li>
+          <div class="ver_align"><img src="assets/postgresql.svg" alt="" title="">
+            <p>PostgreSQL</p>
+          </div>
+        </li>
+        <li>
+          <div class="ver_align"><img src="assets/mongodb.svg" alt="" title="">
+            <p>MongoDB</p>
+          </div>
+        </li>
+        <li>
+          <div class="ver_align"><img src="assets/postman.svg" alt="" title="">
+            <p>Postman</p>
+          </div>
+        </li>
+        <li>
+          <div class="ver_align"><img src="assets/github.svg" alt="" title="">
+            <p>Github</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+  <div class="container mt-5 mb-5" id="clients">
+    <img src="assets/client.svg" style="float:right;" class="clientimg mb-5">
+    <h3 class="technoh2 mt-5 mb-5">Our Clients</h3>
+    <h6 class="abouth5 mb-4">We're committed to reshaping their organizations and driving lasting value.</h6>
+    <p class="servicep mb-4">We have an impressive range of clients. We serve prominent International corporations and
+      organizations. We assist software solutions across the globe.</p>
+    <p class="servicep">Serving our clients—including corporations, private firms is a privilege and responsibility that
+      we take with honour. As individuals, these are executives who are committed to reshaping their organizations and
+      to creating real impact in increasingly complex conditions. We laud their commitment and with humility, we
+      recognize the trust placed in us for their digital transformations.</p>
+  </div>
+  <div id="reviews">
+    <div id="carouselExampleCaptions" class="carousel slide mb-5" data-bs-ride="carousel" style="position:relative;text-align: center;">
+
+      <div class="carousel-inner">
+        <!-- (click)="goToAbout()" -->
+        <div class="carousel-item active">
+          <div class="pic">
+            <span>
+              <img src="assets/sofdev2.jpeg" style="width:100%;height: 100%;">
+            </span>
+          </div>
+          <p class="clientp" style="padding-left: 20%;padding-right: 20%;">Thank you very much for creating a fantastic corporate website for us. I deeply appreciate your efforts and guidance, without which, this wouldn’t have been possible.</p>
+          <h4 class="clienth4">Shikeb Mehdi</h4>
+          <span class="clientspan">Manager ALM qatar</span>
+        </div>
+
+        <div class="carousel-item">
+          <div class="pic">
+            <span>
+              <img src="assets/sofdev2.jpeg" style="width:100%;height: 100%;">
+            </span>
+          </div>
+          <p class="clientp" style="padding-left: 20%;padding-right: 20%;">“I love it, this site is so easy to navigate through, and easy to get back on track if you find something else you want to explore. And need i say convinience? thankyou!”</p>
+          <h4 class="clienth4">Anonymous</h4>
+          <span class="clientspan">MD future company</span>
+        </div>
+        <div class="carousel-item">
+          <div class="pic">
+            <span>
+              <img src="assets/sofdev2.jpeg" style="width:100%;height: 100%;">
+            </span>
+          </div>
+          <p class="clientp" style="padding-left: 20%;padding-right: 20%;">“I really like the new design. It is a lot easier to use and visually attractive.”</p>
+          <h4 class="clienth4">Fasiha</h4>
+          <span class="clientspan">MD SI group</span>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <i class="bi bi-arrow-right-circle-fill"></i>
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <div id="contact" style="width:100%;height:280px;background-color: black;color: white;text-align: center;">
+    <h3 style="padding-top: 30px;">Contact Us</h3>
+    
+      
+      <a class="btn rounded text-white p-3" href="tel:+91 701 986 2881"><i class="bi bi-telephone"></i>   Call now</a><br>
+      <a class="btn rounded text-white p-3" href="mailto:abdulqadir66449@gmail.com"><i class="bi bi-envelope"></i> Send Mail</a><br>
+      <ul style="display: inline;list-style-type: none;">
+        <li> <a href="#"><i class="bi bi-facebook" style="color:white;padding-right: 10px;"></i></a></li>
+        <li> <a href="#"><i class="bi bi-instagram" style="color:white;padding-right: 10px;"></i></a></li>
+        <li> <a href="#"><i class="bi bi-twitter" style="color:white;padding-right: 10px;"></i></a></li>
+      </ul>
+
+  </div>
+  <a class="btn btn-success" href="https://api.whatsapp.com/send?phone=918951466449" target="_blank"
+    style="position: fixed;bottom:10px;left:10px;"><i class="bi bi-whatsapp"> Chat</i></a>
+</div>

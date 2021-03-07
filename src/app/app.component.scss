@@ -1,0 +1,193 @@
+.nav-item :hover{
+    color:lightgrey;
+    
+}
+.nav-item{
+    margin-left: 20px;
+}
+.homeimg{
+    width:100%;
+    height:550px;
+}
+.text-center{
+    position:relative;top:46%;left:28%;text-align: center;color: white;
+}
+
+.pos{
+    position:absolute;
+    top:45%;
+    left:30%;
+    background-color: rgba(0.5, 0.5, 0.5, 0.1);
+    padding:30px;
+    color:white;
+}
+.pic span{
+    
+        display: inline-block;
+        border-radius: 50%;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        
+    
+}
+#about{
+    background-image: url("../assets/back-about.webp");
+    background-size: cover;
+}
+.abouth2 {
+    display: inline-block;
+    position: relative;
+    font-size: 25px;
+    color: #5e707d;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    
+}
+.pic {
+    width: 104px;
+    height: 104px;
+    border: 5px solid rgba(1, 1, 1, 0.5);
+    border-radius: 50%;
+    margin: 0 auto 35px auto;
+    position: relative;
+}
+.clientp{
+    
+        font-size: 18px;
+        color: #6f7a82;
+        margin-bottom: 20px;
+        font-weight: 300;
+    
+}
+.clienth4{
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 20px;
+    color: rgba(1, 1, 1, 0.5);
+}
+.clientspan{
+    
+        font-size: 14px;
+        color: #5e707d;
+    
+}
+#clients{
+    background-image: url("../assets/back-about.webp");
+    background-size: cover;
+}
+.technoh2{
+    font-size: 25px;
+    color: #5e707d;
+    font-family: "Montserrat",sans-serif;
+}
+#services {
+    background: url(../assets/crative-main-bg.png) no-repeat;
+    background-size: 100% 100%;
+}
+.servicep{
+    color: #3e3f44;
+    font: 18px/30px 'SF Pro Display';
+}
+.hostlink{
+    text-decoration: none;
+    font: 20px SFProDisplay-Bold;
+    color: #3e3f44;
+    display: inline-block;
+    margin-top: 40px;
+}
+a:hover{
+    text-decoration: underline;
+    
+}
+.swap1{
+    display: none;
+}
+.abouth5 {
+    font-size: 24px;
+    color: #2e3235;
+    line-height: 30px;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+.aboutp {
+    font-size: 16px;
+    color: #6f7a82;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+li{
+    // float:left;
+    //float:left;
+    display:inline-flex;
+    margin:20px;
+    
+}
+.ver_align {
+    box-shadow: 3px 3px 8px 3px rgb(0 0 0 / 2%);
+    background-color: #fff;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 40px;
+    height: 140px;
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+ul{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+@media screen and (max-width:845px){
+    .homeimg{
+        width:100%;
+        height:400px;
+    }
+    .text-center{
+        position:relative;top:40%;left:25%;text-align: center;color: white;
+    }
+    
+    
+
+}
+@media screen and (max-width:992px){
+    .pos{
+        position:relative;
+        top:0%;
+        left:0%;
+        background-color: rgba(0.5, 0.5, 0.5, 0.5);
+        padding:30px;
+        color:white;
+    }
+    .swap1{
+        display: block;
+    }
+    .swap{
+        display: none;
+    }
+}
+@media screen and (max-width:400px){
+    .homeimg{
+        width:100%;
+        height:240px;
+    }
+    .text-center{
+        position:relative;top:23%;left:10%;text-align: center;color: white;
+    }
+    li{
+        margin:2px;
+    }
+    .clientimg{
+        width:100%;
+
+    }
+    
+}
